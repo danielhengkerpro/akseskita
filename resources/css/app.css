@@ -1,0 +1,468 @@
+@import 'tailwindcss';
+@import 'leaflet/dist/leaflet.css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    /* ---------- Type ---------- */
+    --font-sans: 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Archivo', 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;
+    --font-comfort: 'Atkinson Hyperlegible', 'Hanken Grotesk', sans-serif;
+
+    /* ---------- Board (deep ink wayfinding ground) ---------- */
+    --color-board-950: #050d18;
+    --color-board-900: #0a1628;
+    --color-board-800: #101f36;
+    --color-board-700: #182c47;
+    --color-board-600: #22395a;
+    --color-board-500: #35496b;
+
+    /* ---------- Paper / board surface ---------- */
+    --color-paper: #f6f8fc;
+    --color-paper-dim: #e9edf5;
+
+    /* ---------- Status: Ramah / Terbatas / Berbahaya ---------- */
+    --color-go-50: #e6f9f1;
+    --color-go-100: #c3f0df;
+    --color-go-300: #6ed9b0;
+    --color-go-500: #10b981;
+    /* go-600/go-700 digelapkan agar teks putih di atasnya lulus WCAG AA (>=4.5:1). */
+    --color-go-600: #047857; /* putih 5.48:1 */
+    --color-go-700: #036b4d; /* putih 6.57:1 (hover) */
+
+    --color-warn-50: #fff6e5;
+    --color-warn-100: #ffe9bf;
+    --color-warn-300: #ffcf6b;
+    --color-warn-500: #f59e0b;
+    --color-warn-600: #d97706;
+    --color-warn-700: #a55a00;
+
+    --color-stop-50: #ffeaef;
+    --color-stop-100: #ffd2dc;
+    --color-stop-300: #ff8fa8;
+    --color-stop-500: #e11d48;
+    --color-stop-600: #be123c;
+    --color-stop-700: #9f1239;
+
+    /* ---------- Route-line accents (colour owns whole regions) ---------- */
+    /* route-cyan digelapkan agar teks putih di atasnya lulus WCAG AA (putih 5.36:1). */
+    --color-route-cyan: #0e7490;
+    --color-route-cyan-soft: #06b6d4;
+    /* Dark cyan reserved for text/labels on light grounds (putih 9.74:1) */
+    --color-route-cyan-ink: #0c4a5e;
+    --color-route-violet: #6d3ff0;
+    --color-route-violet-soft: #8b5cf6;
+    --color-route-magenta: #d6246e;
+    --color-route-sun: #f5b400;
+    --color-route-lime: #4d8c0a;
+
+    /* ---------- Ink ---------- */
+    --color-ink-900: #0a1628;
+    --color-ink-700: #253347;
+    --color-ink-500: #3f4d63;
+    --color-ink-400: #5b6a80;
+
+    /* ---------- Keterbacaan: override slate terang agar lulus WCAG AA ----------
+       slate-400 dipakai 30x sebagai teks/ikon di latar terang (putih/paper).
+       Nilai bawaan Tailwind (#94a3b8 = 2.5:1) terlalu pucat. Digelapkan ke
+       rasio >=4.5:1. slate-300/200 (teks besar/dekoratif) juga digelapkan. */
+    --color-slate-400: #5b6a80; /* putih 5.50:1 */
+    --color-slate-300: #64748b; /* putih 4.76:1 */
+    --color-slate-200: #7c8ca0; /* putih 3.43:1 (large text) */
+    --color-slate-500: #556575; /* putih 5.99:1, paper 5.64:1 */
+
+    /* ---------- Legacy aliases ----------
+       Older blade files (auth, admin, dashboards) still use the old brand
+       utility names. Map them onto the new wayfinding palette so nothing
+       renders unstyled while those surfaces migrate. ---------- */
+    --color-brand-50: #e6f6fb;
+    --color-brand-100: #c7e9f5;
+    --color-brand-200: #9bd6ec;
+    --color-brand-300: #62bcdf;
+    --color-brand-400: #2f9fc9;
+    --color-brand-500: #0891b2;
+    --color-brand-600: #067595;
+    --color-brand-700: #0a5f79;
+    --color-brand-800: #0d4c62;
+    --color-brand-900: #103f52;
+
+    /* ---------- Motion ---------- */
+    --animate-float: float 7s ease-in-out infinite;
+    --animate-flip: flip-in 0.6s cubic-bezier(0.2, 0.9, 0.25, 1) both;
+    --animate-marquee: marquee 38s linear infinite;
+    --animate-signal: signal 2.6s ease-in-out infinite;
+    --animate-blink: blink 1.1s steps(1) infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+}
+
+@keyframes flip-in {
+    0% { transform: rotateX(-92deg); opacity: 0; }
+    60% { opacity: 1; }
+    100% { transform: rotateX(0deg); opacity: 1; }
+}
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+@keyframes signal {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.55; transform: scale(0.9); }
+}
+
+@keyframes blink {
+    50% { opacity: 0.35; }
+}
+
+/* =========================================================
+   BASE
+   ========================================================= */
+@layer base {
+    :root {
+        --focus-ring: var(--color-route-cyan);
+    }
+
+    html {
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+
+    body {
+        @apply bg-paper text-ink-900 antialiased;
+        font-family: var(--font-sans);
+    }
+
+    /* Colour alone never carries meaning â€” but every control still gets a
+       strong, visible keyboard focus ring drawn from the palette. */
+    :focus-visible {
+        outline: 3px solid var(--focus-ring);
+        outline-offset: 3px;
+        border-radius: 6px;
+    }
+
+    /* Themed browser surfaces (selection, caret, scrollbar) */
+    ::selection {
+        background: var(--color-route-violet);
+        color: #fff;
+    }
+
+    mark {
+        background: var(--color-route-sun);
+        color: var(--color-board-900);
+        padding: 0 0.15em;
+        border-radius: 3px;
+    }
+}
+
+/* =========================================================
+   BROWSER SURFACES
+   ========================================================= */
+* {
+    scrollbar-color: var(--color-board-500) var(--color-paper-dim);
+    scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--color-paper-dim);
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--color-board-500);
+    border-radius: 9999px;
+    border: 3px solid var(--color-paper-dim);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: var(--color-board-700);
+}
+
+/* =========================================================
+   ALPINE
+   ========================================================= */
+[x-cloak] {
+    display: none !important;
+}
+
+/* =========================================================
+   CUSTOM SELECT STYLING (eliminate browser default dropdown arrow)
+   ========================================================= */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23475569'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+    padding-right: 2.25rem !important;
+    cursor: pointer;
+}
+
+/* =========================================================
+   WAYFINDING PRIMITIVES
+   ========================================================= */
+
+/* Signage ground â€” deep board with a faint grid, like a route-map panel */
+.board-ground {
+    background-color: var(--color-board-900);
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+/* Route line: a bold coloured rail with circular stop nodes */
+.route-line {
+    position: relative;
+    height: 8px;
+    border-radius: 9999px;
+    background: currentColor;
+}
+
+.route-node {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 9999px;
+    border: 4px solid currentColor;
+    background: var(--color-board-900);
+    transform: translateY(-50%);
+}
+
+/* Tactile paving â€” the raised dot pattern of guiding blocks */
+.tactile-dots {
+    background-image: radial-gradient(currentColor 2px, transparent 2.4px);
+    background-size: 14px 14px;
+    background-position: 0 0;
+}
+
+/* Typing bar â€” a bold signage cursor, not a hairline caret */
+.typing-bar {
+    display: inline-block;
+    width: 0.28em;
+    height: 0.85em;
+    margin-left: 0.08em;
+    background: var(--color-warn-500);
+    vertical-align: -0.05em;
+    border-radius: 1px;
+    animation: blink 1.1s steps(1) infinite;
+}
+
+/* Tactile paving â€” directional bars */
+.tactile-bars {
+    background-image: repeating-linear-gradient(
+        90deg,
+        currentColor 0 3px,
+        transparent 3px 12px
+    );
+}
+
+/* Destination tile: the rounded-rectangle sign plate */
+.tile-sign {
+    border-radius: 1.25rem;
+    position: relative;
+}
+
+/* Split-flap numeral cell */
+.flap {
+    display: inline-grid;
+    place-items: center;
+    min-width: 1.4em;
+    padding: 0.05em 0.12em;
+    border-radius: 0.28em;
+    background: var(--color-board-800);
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-family: var(--font-display);
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+}
+
+.flap-light {
+    display: inline-grid;
+    place-items: center;
+    min-width: 1.4em;
+    padding: 0.05em 0.12em;
+    border-radius: 0.35em;
+    background: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.14);
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06), inset 0 -2px 0 rgba(15, 23, 42, 0.08);
+    color: var(--color-ink-900);
+    font-family: var(--font-display);
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+}
+
+/* Light signage ground â€” clean white with an ultra-faint grid */
+.signage-grid-light {
+    background-color: #ffffff;
+    background-image:
+        linear-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+
+/* Hard-edged signage arrow chip */
+.sign-chip {
+    border-radius: 0.6rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+/* =========================================================
+   MOTION â€” reveal on scroll (progressive; visible by default)
+   ========================================================= */
+.reveal {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .reveal-animated {
+        opacity: 0;
+        transform: translateY(16px);
+        transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+            transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        will-change: opacity, transform;
+    }
+
+    .reveal-animated.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================================
+   LEAFLET
+   ========================================================= */
+.leaflet-container {
+    font-family: var(--font-sans);
+    background: #dce7dd;
+    z-index: 0;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 1rem;
+    box-shadow: 0 22px 45px -22px rgba(10, 22, 40, 0.55);
+}
+
+.leaflet-popup-content {
+    margin: 0.9rem 1rem;
+    font-size: 0.85rem;
+}
+
+/* Enlarge Leaflet's own controls to a comfortable touch target (WCAG 2.5.8) */
+.leaflet-bar a,
+.leaflet-bar a:hover {
+    background-color: #fff;
+    color: var(--color-board-900);
+    border-bottom-color: rgba(10, 22, 40, 0.12);
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 22px;
+}
+
+.leaflet-touch .leaflet-bar a {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.leaflet-popup-content a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Custom sign-post marker */
+.ak-marker {
+    background: transparent;
+    border: none;
+}
+
+.ak-marker__pin {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 9999px 9999px 9999px 4px;
+    transform: rotate(-45deg);
+    border: 3px solid #fff;
+    box-shadow: 0 10px 20px -8px rgba(10, 22, 40, 0.7);
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.ak-marker__pin span {
+    transform: rotate(45deg);
+}
+
+/* =========================================================
+   UTILITY
+   ========================================================= */
+.card-edge {
+    border: 1px solid rgba(10, 22, 40, 0.08);
+}
+
+.edge-hard {
+    box-shadow: 0 2px 0 0 rgba(10, 22, 40, 0.1);
+}
+
+.text-balance {
+    text-wrap: balance;
+}
+
+.text-tabular {
+    font-variant-numeric: tabular-nums;
+}
+
+/* Skip link */
+.skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -100px;
+    z-index: 2000;
+    transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+    top: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .reveal {
+        transition: none;
+        opacity: 1;
+        transform: none;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+    }
+}

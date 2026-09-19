@@ -1,0 +1,2433 @@
+[
+  {
+    "name": "Duren Kalibata",
+    "category": "stasiun",
+    "address": "Jalan Pengadegan, DKI Jakarta",
+    "latitude": -6.2552,
+    "longitude": 106.85517,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": true,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Tator",
+    "category": "kafe",
+    "address": "Tator, Jakarta",
+    "latitude": -6.18576,
+    "longitude": 106.82918,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "XXI",
+    "category": "fasilitas_publik",
+    "address": "Jalan Metro Pondok Indah, South Jakarta",
+    "latitude": -6.26466,
+    "longitude": 106.78431,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Titik Temu",
+    "category": "kafe",
+    "address": "Titik Temu, Jakarta",
+    "latitude": -6.18804,
+    "longitude": 106.82362,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "KFC",
+    "category": "fasilitas_publik",
+    "address": "KFC, Jakarta",
+    "latitude": -6.22652,
+    "longitude": 106.80156,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "CFC",
+    "category": "fasilitas_publik",
+    "address": "CFC, Jakarta",
+    "latitude": -6.18923,
+    "longitude": 106.79638,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Sekretariat RW 07 (Front Office Taman Anggrek)",
+    "category": "fasilitas_publik",
+    "address": "Sekretariat RW 07 (Front Office Taman Anggrek), Jakarta",
+    "latitude": -6.17887,
+    "longitude": 106.79196,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Loewy",
+    "category": "fasilitas_publik",
+    "address": "Loewy, Jakarta",
+    "latitude": -6.2275,
+    "longitude": 106.82569,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Cafe Al Tahrir",
+    "category": "kafe",
+    "address": "Cafe Al Tahrir, Jakarta",
+    "latitude": -6.22056,
+    "longitude": 106.83255,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Daily Bread Bakery and Cafe",
+    "category": "kafe",
+    "address": "Daily Bread Bakery and Cafe, Jakarta",
+    "latitude": -6.21804,
+    "longitude": 106.83455,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Kopi Luwak",
+    "category": "kafe",
+    "address": "Kopi Luwak, Jakarta",
+    "latitude": -6.21825,
+    "longitude": 106.83526,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Pandav Coffee;pandav coffe",
+    "category": "kafe",
+    "address": "Pandav Coffee;pandav coffe, South Jakarta",
+    "latitude": -6.21826,
+    "longitude": 106.83465,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Starbucks, Jakarta",
+    "latitude": -6.21787,
+    "longitude": 106.83494,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "D'Marco Cafe",
+    "category": "kafe",
+    "address": "D'Marco Cafe, Jakarta",
+    "latitude": -6.18592,
+    "longitude": 106.82527,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Asrama UI",
+    "category": "fasilitas_publik",
+    "address": "Asrama UI, Jakarta",
+    "latitude": -6.34835,
+    "longitude": 106.82977,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Shelter Asrama",
+    "category": "fasilitas_publik",
+    "address": "Shelter Asrama, Jakarta",
+    "latitude": -6.34853,
+    "longitude": 106.82935,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Taman Among Putra",
+    "category": "taman",
+    "address": "Taman Among Putra, Jakarta",
+    "latitude": -6.29933,
+    "longitude": 106.89499,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Taman Apotik Hidup",
+    "category": "taman",
+    "address": "Taman Apotik Hidup, Jakarta",
+    "latitude": -6.29944,
+    "longitude": 106.89714,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Taman Bekisar",
+    "category": "taman",
+    "address": "Taman Bekisar, Jakarta",
+    "latitude": -6.29937,
+    "longitude": 106.90143,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Taman Kaktus",
+    "category": "taman",
+    "address": "Taman Kaktus, Jakarta",
+    "latitude": -6.29934,
+    "longitude": 106.89651,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Taman Melati",
+    "category": "taman",
+    "address": "Taman Melati, Jakarta",
+    "latitude": -6.29938,
+    "longitude": 106.8991,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Grand Indonesia Amarta Lobby",
+    "category": "fasilitas_publik",
+    "address": "Grand Indonesia Amarta Lobby, Jakarta",
+    "latitude": -6.1946,
+    "longitude": 106.81983,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Starbucks, Jakarta",
+    "latitude": -6.18553,
+    "longitude": 106.82185,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Starbucks, Jakarta",
+    "latitude": -6.18673,
+    "longitude": 106.82349,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Cawang",
+    "category": "stasiun",
+    "address": "Cawang, DKI Jakarta",
+    "latitude": -6.24255,
+    "longitude": 106.85869,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": true,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Sultan Soffat Asmawi \"Pijat & Urut Tulang\"",
+    "category": "fasilitas_publik",
+    "address": "Tutul 2, Jakarta Timur",
+    "latitude": -6.23855,
+    "longitude": 106.90583,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": true,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Komunitas Salihara",
+    "category": "fasilitas_publik",
+    "address": "Salihara, Jakarta",
+    "latitude": -6.28367,
+    "longitude": 106.83824,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Circle K",
+    "category": "kafe",
+    "address": "Circle K, Jakarta",
+    "latitude": -6.2772,
+    "longitude": 106.8403,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Rollingstonescafe",
+    "category": "kafe",
+    "address": "Jl. Ampera Raya, Cilandak Tim., Ps. Minggu, South Jakarta",
+    "latitude": -6.27695,
+    "longitude": 106.82018,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Anomali",
+    "category": "kafe",
+    "address": "Anomali, Jakarta",
+    "latitude": -6.26523,
+    "longitude": 106.82049,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "FM Kitchen",
+    "category": "kafe",
+    "address": "FM Kitchen, Jakarta",
+    "latitude": -6.19403,
+    "longitude": 106.847,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Excelso Express",
+    "category": "kafe",
+    "address": "Excelso Express, Jakarta",
+    "latitude": -6.19464,
+    "longitude": 106.84598,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Bank Mandiri",
+    "category": "fasilitas_publik",
+    "address": "Jalan Pangerang Diponegoro, DKI Jakarta",
+    "latitude": -6.19703,
+    "longitude": 106.84769,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Jambo Kupi",
+    "category": "kafe",
+    "address": "Jambo Kupi, Jakarta",
+    "latitude": -6.29806,
+    "longitude": 106.84015,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "The Cake Storage",
+    "category": "kafe",
+    "address": "KH Abdul Syafi'ie, East Tebet",
+    "latitude": -6.22582,
+    "longitude": 106.85748,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Cafe De Hooi",
+    "category": "kafe",
+    "address": "Cafe De Hooi, Jakarta",
+    "latitude": -6.28452,
+    "longitude": 106.78098,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Tebet",
+    "category": "stasiun",
+    "address": "Tebet, DKI Jakarta",
+    "latitude": -6.2264,
+    "longitude": 106.85844,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": true,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Phoenam",
+    "category": "kafe",
+    "address": "Phoenam, Jakarta",
+    "latitude": -6.18737,
+    "longitude": 106.82733,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Kopi Oey",
+    "category": "kafe",
+    "address": "Kopi Oey, Jakarta",
+    "latitude": -6.25429,
+    "longitude": 106.83082,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Aceh Jame Kupi",
+    "category": "kafe",
+    "address": "Aceh Jame Kupi, Jakarta",
+    "latitude": -6.2534,
+    "longitude": 106.8421,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Starbucks, Jakarta",
+    "latitude": -6.24563,
+    "longitude": 106.7883,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Quintino's Djava",
+    "category": "kafe",
+    "address": "Quintino's Djava, Jakarta",
+    "latitude": -6.25886,
+    "longitude": 106.7892,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Quintino's Djava",
+    "category": "kafe",
+    "address": "Quintino's Djava, Jakarta",
+    "latitude": -6.25945,
+    "longitude": 106.78932,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Warnet Ichiban",
+    "category": "kafe",
+    "address": "Warnet Ichiban, Jakarta",
+    "latitude": -6.25204,
+    "longitude": 106.79121,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Kebayoran",
+    "category": "fasilitas_publik",
+    "address": "Kebayoran, Jakarta",
+    "latitude": -6.23838,
+    "longitude": 106.78319,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Ragunan",
+    "category": "fasilitas_publik",
+    "address": "Ragunan, Jakarta",
+    "latitude": -6.30576,
+    "longitude": 106.81902,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Anomali Cafe",
+    "category": "kafe",
+    "address": "Anomali Cafe, Jakarta",
+    "latitude": -6.26736,
+    "longitude": 106.81543,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Titik Temu",
+    "category": "kafe",
+    "address": "Titik Temu, Jakarta",
+    "latitude": -6.22728,
+    "longitude": 106.80931,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Starbucks, Jakarta",
+    "latitude": -6.20186,
+    "longitude": 106.82081,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Starbucks, Jakarta",
+    "latitude": -6.19502,
+    "longitude": 106.82035,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Alfamart",
+    "category": "fasilitas_publik",
+    "address": "Alfamart, Jakarta",
+    "latitude": -6.30763,
+    "longitude": 106.83891,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Taman Jajan Babe",
+    "category": "fasilitas_publik",
+    "address": "Taman Jajan Babe, Jakarta",
+    "latitude": -6.30423,
+    "longitude": 106.84492,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Dapur Solo",
+    "category": "fasilitas_publik",
+    "address": "Dapur Solo, Jakarta",
+    "latitude": -6.18804,
+    "longitude": 106.82348,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Buaran",
+    "category": "stasiun",
+    "address": "Buaran, DKI Jakarta",
+    "latitude": -6.21561,
+    "longitude": 106.92316,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": true,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Toodz House - Cipete",
+    "category": "kafe",
+    "address": "Jalan Cipete Raya, Jakarta",
+    "latitude": -6.27792,
+    "longitude": 106.80182,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Cacaoté",
+    "category": "kafe",
+    "address": "Jl. Senopati Raya, South Jakarta",
+    "latitude": -6.23247,
+    "longitude": 106.81106,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Tanamera Coffee",
+    "category": "kafe",
+    "address": "Tanamera Coffee, Jakarta",
+    "latitude": -6.19557,
+    "longitude": 106.81681,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "CFC",
+    "category": "fasilitas_publik",
+    "address": "CFC, Jakarta",
+    "latitude": -6.30094,
+    "longitude": 106.89969,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Jalan Letjen. S. Parman, Jakarta",
+    "latitude": -6.18987,
+    "longitude": 106.79858,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Ketan Susu Kemayoran",
+    "category": "kafe",
+    "address": "Ketan Susu Kemayoran, Jakarta",
+    "latitude": -6.16081,
+    "longitude": 106.84925,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Rabbani - Rawamangun",
+    "category": "mal",
+    "address": "Jalan Pemuda, East Jakarta",
+    "latitude": -6.19306,
+    "longitude": 106.88437,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Grand Hyatt Jakarta",
+    "category": "fasilitas_publik",
+    "address": "Jl. M.H. Thamrin, Central Jakara",
+    "latitude": -6.1938,
+    "longitude": 106.82245,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Gajah Mada Plaza (Main Entrance)",
+    "category": "mal",
+    "address": "Jalan Gajah Mada, Petojo Utara, Gambir, Central Jakarta",
+    "latitude": -6.16044,
+    "longitude": 106.81891,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Emporium Pluit Mall Side Entrance",
+    "category": "mal",
+    "address": "Jalan Pluit Selatan Raya, Pluit, North Jakarta",
+    "latitude": -6.1268,
+    "longitude": 106.79036,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Emporium Pluit Mall Back Entrance",
+    "category": "mal",
+    "address": "Jalan Pluit Selatan Raya, Pluit, North Jakarta",
+    "latitude": -6.12916,
+    "longitude": 106.78988,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Emporium Pluit Mall Front Entrance",
+    "category": "mal",
+    "address": "Pluit Selatan Raya, Pluit, North Jakarta",
+    "latitude": -6.12746,
+    "longitude": 106.79171,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Cosmo Terrace",
+    "category": "kafe",
+    "address": "Jalan KH Mas Mansyur, Thamrin City, Tanah Abang, Central Jakarta",
+    "latitude": -6.19426,
+    "longitude": 106.81619,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Comic Cafe",
+    "category": "kafe",
+    "address": "Jalan Tebet Raya, Tebet, South Jakarta",
+    "latitude": -6.22835,
+    "longitude": 106.85506,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "a lot of superhero picture here, you should take a photo!!"
+    }
+  },
+  {
+    "name": "Grand Paragon",
+    "category": "mal",
+    "address": "Jl. Gajahmada No.126, RT.13/RW.8, West Jakarta",
+    "latitude": -6.15183,
+    "longitude": 106.817,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Plaza Kalibata",
+    "category": "mal",
+    "address": "Jl. Kalibata Raya No.1, RT.3/RW.2, Rawajati, Pancoran, South Jakarta",
+    "latitude": -6.25732,
+    "longitude": 106.857,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Bellagio Boutique Mall",
+    "category": "mal",
+    "address": "Jalan Mega Kuningan Barat III, East Kuningan, Central Jakarta",
+    "latitude": -6.22743,
+    "longitude": 106.8244,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Arion Mall",
+    "category": "mal",
+    "address": "Jl. Pemuda Kav. 3-4, Rawamangun, Pulo Gadung, East Jakarta",
+    "latitude": -6.19382,
+    "longitude": 106.89055,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Seasons City (Main Entrance)",
+    "category": "mal",
+    "address": "Jl. Prof. Dr. Latumenten, Jembatan Besi, Tambora, Daerah Khusus Ibukota Jakarta, West Jakarta",
+    "latitude": -6.15311,
+    "longitude": 106.79538,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Kramat",
+    "category": "stasiun",
+    "address": "Kramat, DKI Jakarta",
+    "latitude": -6.19362,
+    "longitude": 106.85651,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": true,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Pesing",
+    "category": "stasiun",
+    "address": "Pesing, DKI Jakarta",
+    "latitude": -6.16125,
+    "longitude": 106.77191,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": true,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "M.T. Haryono Square",
+    "category": "mal",
+    "address": "Jalan Letnan Jenderal MT Haryono, East Jakarta",
+    "latitude": -6.24371,
+    "longitude": 106.86892,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Hypermart Kelapa Gading Trade Center",
+    "category": "mal",
+    "address": "Jl. Boulevard Bar. Raya, North Jakarta",
+    "latitude": -6.15503,
+    "longitude": 106.89287,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "ITC Cempaka Mas Main Entrance",
+    "category": "mal",
+    "address": "Jalan Letjen. R. Suprapto, Central Jakarta",
+    "latitude": -6.1657,
+    "longitude": 106.87737,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Pasar Jaya. PD",
+    "category": "mal",
+    "address": "JL. KH. Samanhudi, Central Jakarta",
+    "latitude": -6.16112,
+    "longitude": 106.83299,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Plaza 89",
+    "category": "mal",
+    "address": "Jalan Hajjah R. Rasuna Said, South Jakarta",
+    "latitude": -6.2178,
+    "longitude": 106.83077,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "WTC Mangga Dua Side Entrance",
+    "category": "mal",
+    "address": "Jl. Mangga Dua Raya, RW.5, Ancol, Pademangan, North Jakarta",
+    "latitude": -6.13347,
+    "longitude": 106.83101,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Plaza Kuningan, Menara Selatan",
+    "category": "mal",
+    "address": "Jalan Hajjah R. Rasuna Said, South Jakarta",
+    "latitude": -6.21722,
+    "longitude": 106.83118,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Mall Daan Mogot",
+    "category": "mal",
+    "address": "Jl. Daan Mogot Km. 16, Kalideres ,West Jakarta",
+    "latitude": -6.15158,
+    "longitude": 106.71478,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Mall Artha Gading",
+    "category": "mal",
+    "address": "Jl. Artha Gading Selatan, North Jakarta",
+    "latitude": -6.14516,
+    "longitude": 106.89144,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Maple Park",
+    "category": "mal",
+    "address": "Jl. Danau Sunter Barat, North Jakarta",
+    "latitude": -6.14995,
+    "longitude": 106.85748,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "La Piazza",
+    "category": "mal",
+    "address": "Jl. Bulevar Kelapa Gading, Kelapa Gading, North Jakarta",
+    "latitude": -6.15951,
+    "longitude": 106.90636,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Lippo Mall Puri 2 Alternative Entrance/ Exit",
+    "category": "mal",
+    "address": "Jl. Puri Indah Raya Blok U 1,, Puri Indah, Kembangan, West Jakarta",
+    "latitude": -6.18692,
+    "longitude": 106.73951,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Px Pavilion",
+    "category": "mal",
+    "address": "Jl.Puri Indah Raya Boulevard Blok U1 ,, West Jakarta",
+    "latitude": -6.18834,
+    "longitude": 106.73794,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "St.Moritz",
+    "category": "mal",
+    "address": "Jalan Puri Lingkar Luar, West Jakarta",
+    "latitude": -6.19043,
+    "longitude": 106.74055,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "basok solo",
+    "category": "kafe",
+    "address": "basok solo, Jakarta",
+    "latitude": -6.11723,
+    "longitude": 106.75699,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Anomali Coffee Senopati",
+    "category": "kafe",
+    "address": "Jalan Senopati, Senayan, South Jakarta",
+    "latitude": -6.23072,
+    "longitude": 106.80818,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Jl. Tomang Raya, Tomang, Grogol petamburan, West Jakarta",
+    "latitude": -6.17722,
+    "longitude": 106.79937,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Mahaka Square",
+    "category": "mal",
+    "address": "Jl. Raya Kelapa Nias HF 3, North Jakarta",
+    "latitude": -6.15018,
+    "longitude": 106.90272,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Beer Brother Kemang",
+    "category": "kafe",
+    "address": "Jalan Raya Taman Kemang 2, Kebayoran Baru, South Jakarta",
+    "latitude": -6.25703,
+    "longitude": 106.81025,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Beer Garden Radio Dalam",
+    "category": "kafe",
+    "address": "Jalan Radio Dalam Raya, Kebayoran Baru, Gandaria Utara, South Jakarta",
+    "latitude": -6.24951,
+    "longitude": 106.79171,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Caribou Coffee",
+    "category": "kafe",
+    "address": "Jalan Senopati, Senayan, South Jakarta",
+    "latitude": -6.23026,
+    "longitude": 106.80408,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Kung Fu Tea",
+    "category": "kafe",
+    "address": "Jl. Komplek Green Ville blok B2, Kebon Jeruk, West Jakarta",
+    "latitude": -6.16955,
+    "longitude": 106.77208,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Crematology Coffee Roasters",
+    "category": "kafe",
+    "address": "Jalan Hajjah R. Rasuna Said, Setiabudi, South Jakarta",
+    "latitude": -6.2288,
+    "longitude": 106.83388,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Lotte Mart Ratu Plaza (Main Entrance)",
+    "category": "mal",
+    "address": "Jalan Jend. Sudirman, Tanah Abang, Central Jakarta",
+    "latitude": -6.22691,
+    "longitude": 106.80142,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Puri Indah Mall (Back Entrance)",
+    "category": "mal",
+    "address": "Jl. Puri Agung, Kembangan Selatan, West Jakarta",
+    "latitude": -6.18766,
+    "longitude": 106.73487,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Eat Happens Tebet",
+    "category": "kafe",
+    "address": "l. Tebet Utara Dalam, Tebet, South Jakarta",
+    "latitude": -6.22819,
+    "longitude": 106.85525,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "western food and Indonesian food provide here"
+    }
+  },
+  {
+    "name": "Mall Kelapa Gading 2 Main Entrance",
+    "category": "mal",
+    "address": "Jl. Bulevard Timur, Kelapa Gading, North Jakarta",
+    "latitude": -6.15831,
+    "longitude": 106.90705,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Mall Kelapa Gading 1 Main Entrance",
+    "category": "mal",
+    "address": "Jl. Bulevard Timur, Kelapa Gading, North Jakarta",
+    "latitude": -6.159,
+    "longitude": 106.90663,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Puri Indah Mall (Main Entrance)",
+    "category": "mal",
+    "address": "Jl. Puri Agung, Kembangan Selatan, West Jakarta",
+    "latitude": -6.189,
+    "longitude": 106.73468,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Fat Bubble",
+    "category": "kafe",
+    "address": "Ruko Crown Golf Mediterania PIK Blok. A No. 17, Pantai Indah Kapuk, South Jakarta",
+    "latitude": -6.11225,
+    "longitude": 106.74247,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Mini Stop Gandaria",
+    "category": "fasilitas_publik",
+    "address": "Jl. Kyai Moh. Syafii Hadzami, Kebayoran Lama, South Jakarta",
+    "latitude": -6.24579,
+    "longitude": 106.78405,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Twin Plaza Hotel",
+    "category": "fasilitas_publik",
+    "address": "Jalan Letjen. S. Parman, West Jakarta",
+    "latitude": -6.18262,
+    "longitude": 106.79714,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Museum Sejarah Jakarta",
+    "category": "fasilitas_publik",
+    "address": "Jalan Taman Fatahillah, Taman Sari, West Jakarta",
+    "latitude": -6.13515,
+    "longitude": 106.81329,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Pasaraya",
+    "category": "mal",
+    "address": "Jalan Sultan Iskandarsyah 2, Kebayoran Baru, South Jakarta",
+    "latitude": -6.2454,
+    "longitude": 106.80403,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Foresthree",
+    "category": "kafe",
+    "address": "Jalan Blora, Central Jakarta",
+    "latitude": -6.20165,
+    "longitude": 106.82344,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "ropisbak ghifari grab",
+    "category": "kafe",
+    "address": "Jl. Pangkalan Jati III, Cipinang Melayu, Makasar, East Jakarta",
+    "latitude": -6.2499,
+    "longitude": 106.90816,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Roti Bakar Eddy Blok M",
+    "category": "kafe",
+    "address": "Jalan Raden Patah, Kebayoran Baru, Selong, Kby. Baru,, South Jakarta",
+    "latitude": -6.2364,
+    "longitude": 106.7998,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Roti Bakar Eddy Senayan",
+    "category": "kafe",
+    "address": "Jl. Manila, Gelora, Central Jakarta",
+    "latitude": -6.22311,
+    "longitude": 106.80215,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Roti Pisang Bakar (Ropisbak) Ghifari",
+    "category": "kafe",
+    "address": "Jl. Balai Pustaka Tim. , Rawamangun, Pulo Gadung,, East Jakarta",
+    "latitude": -6.19733,
+    "longitude": 106.88628,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Sheraton Grand Jakarta Gandaria City Hotel",
+    "category": "fasilitas_publik",
+    "address": "Sultan Iskandar Muda, South Jakarta",
+    "latitude": -6.24522,
+    "longitude": 106.78305,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Shisha Cafe",
+    "category": "kafe",
+    "address": "Kemang Raya, South Jakarta",
+    "latitude": -6.25691,
+    "longitude": 106.81481,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Jalan Hayam Wuruk, West Jakarta",
+    "latitude": -6.15207,
+    "longitude": 106.81764,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Jl. Tanah Abang II No.76, Central Jakarta",
+    "latitude": -6.17538,
+    "longitude": 106.8122,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Cafe Batavia",
+    "category": "kafe",
+    "address": "Jalan Pintu Besar Utara No.14, West Jakarta",
+    "latitude": -6.13442,
+    "longitude": 106.81277,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Jl. Pesanggrahan Mas Raya, West Jakarta",
+    "latitude": -6.18881,
+    "longitude": 106.75606,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Jl. Pantai Indah Kapuk Utara II, North Jakarta",
+    "latitude": -6.11616,
+    "longitude": 106.7574,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "ITC Cempaka Mas Side Entrance",
+    "category": "mal",
+    "address": "Jalan Letjen. R. Suprapto, Central Jakarta",
+    "latitude": -6.1659,
+    "longitude": 106.87679,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Lippo Mall Puri 1 Side Entrance",
+    "category": "mal",
+    "address": "Jalan Puri Lingkar Luar, West Jakarta",
+    "latitude": -6.19079,
+    "longitude": 106.73862,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Junkyard Cafe & Bar",
+    "category": "kafe",
+    "address": "Jalan Senopati, South Jakarta",
+    "latitude": -6.23036,
+    "longitude": 106.8075,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Pao Pao Liquor Bar & Dimsum",
+    "category": "kafe",
+    "address": "Jl. Senopati No.16, South Jakarta",
+    "latitude": -6.2296,
+    "longitude": 106.80421,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "The Cubbyhole Canteen",
+    "category": "kafe",
+    "address": "Jalan Senopati, South Jakarta",
+    "latitude": -6.2314,
+    "longitude": 106.8092,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Kingsman - Hemingway Speakeasy Lounge & Cigar Bar",
+    "category": "kafe",
+    "address": "Jalan Senopati, South Jakarta",
+    "latitude": -6.23297,
+    "longitude": 106.81175,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Miel Ice Cream",
+    "category": "kafe",
+    "address": "Jl. Suryo, South Jakarta",
+    "latitude": -6.23376,
+    "longitude": 106.81236,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Mouse Coffee",
+    "category": "kafe",
+    "address": "Jalan Hayam Wuruk, Jakarta",
+    "latitude": -6.15944,
+    "longitude": 106.81932,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Maxx Coffee",
+    "category": "kafe",
+    "address": "Kemang Village Lantai 3 – A1, Kemang, South Jakarta",
+    "latitude": -6.2616,
+    "longitude": 106.81254,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "BOLT! Zone Lippo Mall Puri",
+    "category": "mal",
+    "address": "Lippo Mall Puri Lt.2 Unit 49, West Jakarta",
+    "latitude": -6.1889,
+    "longitude": 106.73872,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Bumbu Moyang",
+    "category": "kafe",
+    "address": "Marina Indah, Jakarta",
+    "latitude": -6.11293,
+    "longitude": 106.74846,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Starbucks, Jakarta",
+    "latitude": -6.10757,
+    "longitude": 106.77933,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "reneka",
+    "category": "kafe",
+    "address": "Pluit Selatan Raya, Pluit, North Jakarta",
+    "latitude": -6.12728,
+    "longitude": 106.79147,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Pluit Selatan Raya, Pluit, North Jakarta",
+    "latitude": -6.12743,
+    "longitude": 106.79122,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Chillowd (warung kopi)",
+    "category": "kafe",
+    "address": "Chillowd (warung kopi), Jakarta",
+    "latitude": -6.28617,
+    "longitude": 106.81891,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Warteg Gang Mangga",
+    "category": "fasilitas_publik",
+    "address": "Warteg Gang Mangga, Jakarta",
+    "latitude": -6.14622,
+    "longitude": 106.81469,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Hello Kitty Cafe",
+    "category": "kafe",
+    "address": "Hello Kitty Cafe, Jakarta",
+    "latitude": -6.11141,
+    "longitude": 106.73809,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "South Lobby Plaza indonesia",
+    "category": "fasilitas_publik",
+    "address": "South Lobby Plaza indonesia, Jakarta",
+    "latitude": -6.19413,
+    "longitude": 106.82144,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "FamilyMart",
+    "category": "fasilitas_publik",
+    "address": "Jalan Gatot Subroto, Petamburan, Tanah Abang, Central Jakarta",
+    "latitude": -6.20215,
+    "longitude": 106.80165,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Ranch Market",
+    "category": "fasilitas_publik",
+    "address": "Ranch Market, Jakarta",
+    "latitude": -6.22422,
+    "longitude": 106.82294,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "ASEAN Headquarters",
+    "category": "stasiun",
+    "address": "ASEAN Headquarters, Jakarta",
+    "latitude": -6.23877,
+    "longitude": 106.79845,
+    "is_verified": true,
+    "features": {
+      "has_ramp": true,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": true,
+      "wide_door": true,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  },
+  {
+    "name": "Starbucks",
+    "category": "kafe",
+    "address": "Starbucks, Jakarta",
+    "latitude": -6.15305,
+    "longitude": 106.71412,
+    "is_verified": true,
+    "features": {
+      "has_ramp": false,
+      "has_lift": false,
+      "has_accessible_toilet": false,
+      "has_guiding_block": false,
+      "wide_door": false,
+      "braille_lift": false,
+      "notes": "Data diimpor & dipetakan dari OpenStreetMap."
+    }
+  }
+]
